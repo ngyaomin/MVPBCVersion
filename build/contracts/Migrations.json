@@ -1,0 +1,48 @@
+{
+  "contract_name": "Migrations",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "last_completed_migration",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "owner",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "completed",
+          "type": "uint256"
+        }
+      ],
+      "name": "setCompleted",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    }
+  ],
+  "unlinked_binary": "0x606060405260008054600160a060020a03191633600160a060020a0316179055341561002a57600080fd5b5b61014c8061003a6000396000f300606060405263ffffffff7c0100000000000000000000000000000000000000000000000000000000600035041663445df0ac81146100535780638da5cb5b14610078578063fdacd576146100b4575b600080fd5b341561005e57600080fd5b6100666100cc565b60405190815260200160405180910390f35b341561008357600080fd5b61008b6100d2565b60405173ffffffffffffffffffffffffffffffffffffffff909116815260200160405180910390f35b34156100bf57600080fd5b6100ca6004356100ee565b005b60015481565b60005473ffffffffffffffffffffffffffffffffffffffff1681565b6000543373ffffffffffffffffffffffffffffffffffffffff90811691161461011657600080fd5b60018190555b5b505600a165627a7a723058200a3cd947129950c807e6256d26da6bf9db87bf1e766ba6365defd3e5e2acbc2f0029",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1598597696034
+}
