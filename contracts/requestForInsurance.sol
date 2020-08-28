@@ -1,6 +1,6 @@
 pragma solidity ^0.4.15;
 
-contract ChainList {
+contract InsuranceList {
   address toBeInsured;
   string name;
   string term1;
