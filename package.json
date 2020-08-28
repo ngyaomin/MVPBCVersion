@@ -1,0 +1,23 @@
+{
+  "name": "mvpbcversion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "truffle": "^5.1.42"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngyaomin/MVPBCVersion.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ngyaomin/MVPBCVersion/issues"
+  },
+  "homepage": "https://github.com/ngyaomin/MVPBCVersion#readme"
+}
