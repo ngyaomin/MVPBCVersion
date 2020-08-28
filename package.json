@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "ganache-cli": "^6.10.1",
     "truffle": "^5.1.42"
   },
   "devDependencies": {},
