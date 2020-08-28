@@ -6,7 +6,6 @@ contract ChainList {
   string term1;
   uint256 payout1;
   uint256 premium;
-}
 
 // request an insurance
 function requestInsurance(string _name, string _term1, uint256 _payout1, uint256 premium) publc {
@@ -27,4 +26,4 @@ function getInsuranceRequest() public view returns (
   ) {
     return(toBeInsured, name, term1, payout1, premium);
   }
-  
+}
