@@ -1,4 +1,4 @@
-pragma solidity ^0.4.15;
+pragma solidity ^0.5.16;
 
 contract InsuranceList {
   address toBeInsured;
@@ -8,7 +8,7 @@ contract InsuranceList {
   uint256 premium;
 
 // request an insurance
-function requestInsurance(string _name, string _term1, uint256 _payout1, uint256 _premium) public {
+function requestInsurance(string memory _name, string  memory _term1, uint256 _payout1, uint256 _premium) public {
   toBeInsured = msg.sender;
   name = _name;
   term1 = _term1;
@@ -17,10 +17,10 @@ function requestInsurance(string _name, string _term1, uint256 _payout1, uint256
 }
 
 // get insurance request
-function getInsuranceRequest() public returns (
+function getInsuranceRequest() public view returns (
   address _toBeInsured,
-  string _name,
-  string _term1,
+  string memory _name,
+  string  memory _term1,
   uint256 _payout1,
   uint256 _premium
   ) {

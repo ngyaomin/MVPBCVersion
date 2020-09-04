@@ -5,9 +5,9 @@
   "main": "index.js",
   "dependencies": {
     "ganache-cli": "^6.10.1",
-    "solc": "^0.4.18",
-    "truffle": "^5.1.42",
-    "web3": "^0.20.0"
+    "solc": "^0.5.16",
+    "truffle": "^5.1.43",
+    "web3": "^1.2.1"
   },
   "devDependencies": {},
   "scripts": {
