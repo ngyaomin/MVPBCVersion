@@ -11,7 +11,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "dev": "lite-server"
   },
   "repository": {
     "type": "git",
