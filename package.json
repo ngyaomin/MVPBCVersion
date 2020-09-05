@@ -2,7 +2,7 @@
   "name": "mvpbcversion",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "truffle.js",
   "dependencies": {
     "@truffle/contract": "^4.2.21",
     "ganache-cli": "^6.10.1",
