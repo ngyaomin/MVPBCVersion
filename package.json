@@ -9,7 +9,9 @@
     "truffle": "^5.1.43",
     "web3": "^1.2.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  },
   "scripts": {
     "test": "mocha",
     "dev": "lite-server"
