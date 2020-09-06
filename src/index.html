@@ -13,6 +13,87 @@
       </div>
     </div>
 
+    <div class="col-md-12" id="insurance-list">
+      <div class="row">
+        <div class="col-lg-12">
+          <p id="account" class="welcome pull-right">testing</p>
+          <p id="accountBalance" class="welcome pull-left">testing amt eth</p>
+        </div>
+      </div>
+
+      <div class="row panel panel-default">
+        <div class="panel-heading clearfix">
+          <div class="panel-title">
+            <button class="btn btn-info btn-lg pull-right" data-toggle="modal" data-target="#requestInsurance">Request An Insurance</button>
+          </div>
+        </div>
+      </div>
+
+      <div id="insurancesRow" class="row">
+        <!-- ARTICLES LOAD HERE -->
+      </div>
+    </div>
+  </div>
+
+  <div id="requestInsuranceTemplate" style="display: none;">
+    <div class="row-lg-12">
+      <div class="panel panel-default panel-article">
+        <div class="panel-heading">
+          <h3 class="panel-title"></h3>
+        </div>
+        <div class="panel-body">
+          <strong>Name</strong>: <span class="toBeInsured-name"></span><br/>
+          <strong>Term1</strong>: <span class="term1"></span><br/>
+          <strong>Payout1 in Eth</strong>: <span class="payout1"></span><br/>
+          <strong>Premium in Eth</strong>: <span class="premium"></span><br/>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="requestInsurance" role="dialog">
+    <div class="modal-dialog">
+
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Request for Insurances</h4>
+        </div>
+        <div class="modal-body">
+
+          <div class="row">
+            <div class="col-lg-12">
+              <form>
+                <div class="form-group">
+                  <label for="name">Enter Your Name</label>
+                  <input type="text" class="form-control" id="toBeInsuredname" placeholder="Enter Your Name">
+                </div>
+                <div class="form-group">
+                <div class="form-group">
+                  <label for="name">Term1</label>
+                  <input type="text" class="form-control" id="term1" placeholder="Enter Terms">
+                </div>
+                <div class="form-group">
+                  <label for="price">Payout1 in ETH</label>
+                  <input type="number" class="form-control" id="payout1" placeholder="1" pattern="[0-9]+([\.,][0-9]+)?" step="0.01">
+                </div>
+                <div class="form-group">
+                <label for="price">Premium in ETH</label>
+                <input type="number" class="form-control" id="premium" placeholder="0.1" pattern="[0-9]+([\.,][0-9]+)?" step="0.01">
+              </div>
+
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary btn-success" data-dismiss="modal" onclick="">Request</button>
+          <button type="button" class="btn" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
     <div id="footer" class="container">
       <nav class="navbar navbar-default navbar-fixed-bottom">
            <div class="navbar-inner navbar-content-center text-center">
