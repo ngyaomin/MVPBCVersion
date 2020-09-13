@@ -36,7 +36,9 @@ App = {
 
      initContract: function() {
        $.getJSON('InsuranceList.json', function(insuranceListArtifact) {
-         App.contracts.ChainList = TruffleContract(insuranceListArtifact);
+         App.contracts.InsuranceList = TruffleContract(insuranceListArtifact);
+         App.contracts.InsuranceList.setProvider(App.web3Provider);
+         return App.reloadInsurances;
        });
      },
 };
