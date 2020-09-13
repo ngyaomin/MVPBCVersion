@@ -41,6 +41,10 @@ App = {
          return App.reloadInsurances;
        });
      },
+     
+     reloadInsurances: function() {
+       
+     }
 };
 
 $(function() {
