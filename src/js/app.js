@@ -35,9 +35,9 @@ App = {
      },
 
      initContract: function() {
-          /*
-           * Replace me...
-           */
+       $.getJSON('InsuranceList.json', function(insuranceListArtifact) {
+         App.contracts.ChainList = TruffleContract(insuranceListArtifact);
+       });
      },
 };
 
